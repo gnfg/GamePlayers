@@ -10,6 +10,8 @@
 		DD3EED5A292644EB00FB45FA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD3EED57292644EB00FB45FA /* main.cpp */; };
 		DD3EED5B292644EB00FB45FA /* CPersonnage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD3EED58292644EB00FB45FA /* CPersonnage.cpp */; };
 		DD3EED5C292644EB00FB45FA /* CArme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD3EED59292644EB00FB45FA /* CArme.cpp */; };
+		DD3EED612926701000FB45FA /* CGuerrier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD3EED602926701000FB45FA /* CGuerrier.cpp */; };
+		DD3EED662926908F00FB45FA /* CMagicien.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD3EED652926908F00FB45FA /* CMagicien.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		DD3EED57292644EB00FB45FA /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DD3EED58292644EB00FB45FA /* CPersonnage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPersonnage.cpp; sourceTree = "<group>"; };
 		DD3EED59292644EB00FB45FA /* CArme.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CArme.cpp; sourceTree = "<group>"; };
+		DD3EED5E2926700500FB45FA /* CGuerrier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGuerrier.h; sourceTree = "<group>"; };
+		DD3EED602926701000FB45FA /* CGuerrier.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CGuerrier.cpp; sourceTree = "<group>"; };
+		DD3EED632926908900FB45FA /* CMagicien.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMagicien.h; sourceTree = "<group>"; };
+		DD3EED652926908F00FB45FA /* CMagicien.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CMagicien.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,8 @@
 		DD3EED2E2923B2EF00FB45FA = {
 			isa = PBXGroup;
 			children = (
+				DD3EED632926908900FB45FA /* CMagicien.h */,
+				DD3EED5E2926700500FB45FA /* CGuerrier.h */,
 				DD3EED4A2925027600FB45FA /* CArme.h */,
 				DD3EED462923F84900FB45FA /* CPersonnage.h */,
 				DD3EED392923B2EF00FB45FA /* VisionTest */,
@@ -68,6 +76,8 @@
 				DD3EED59292644EB00FB45FA /* CArme.cpp */,
 				DD3EED58292644EB00FB45FA /* CPersonnage.cpp */,
 				DD3EED57292644EB00FB45FA /* main.cpp */,
+				DD3EED602926701000FB45FA /* CGuerrier.cpp */,
+				DD3EED652926908F00FB45FA /* CMagicien.cpp */,
 			);
 			path = VisionTest;
 			sourceTree = "<group>";
@@ -129,8 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD3EED662926908F00FB45FA /* CMagicien.cpp in Sources */,
 				DD3EED5C292644EB00FB45FA /* CArme.cpp in Sources */,
 				DD3EED5A292644EB00FB45FA /* main.cpp in Sources */,
+				DD3EED612926701000FB45FA /* CGuerrier.cpp in Sources */,
 				DD3EED5B292644EB00FB45FA /* CPersonnage.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
