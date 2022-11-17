@@ -25,7 +25,7 @@ class CPersonnage{
 private:
     int m_vie = 100;
     int m_mana = 100;
-    CArme m_arme; // encapsulation: associer une classe a une autre
+    CArme *m_arme; // encapsulation: associer une classe a une autre
     std::string m_nomJoueur;
 //------------------------------------------------------------------------
 #pragma endregion initialisation des attributs membres
@@ -50,6 +50,7 @@ public:
     ~CPersonnage();
     CPersonnage(std::string nomArme, int niveauDegat);
     CPersonnage(CPersonnage const& autre);
+    CPersonnage& operator=(CPersonnage const& person);
 //------------------------------------------------------------------------
 #pragma endregion initialisation du constructeur de CPersonnage
 //------------------------------------------------------------------------
