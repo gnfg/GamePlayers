@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
 // ------------------------------------------------------------------------
     CPersonnage david;
     CPersonnage Max("bombe H", 70);
-    CPersonnage Eliote(david);
+    CPersonnage Eliote(david); // CPersonnage Eliote = david
     CPersonnage goliath("Épée aiguisée", 15);
     CPersonnage Mateo(goliath);
     //Au combat !

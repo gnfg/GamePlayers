@@ -26,7 +26,8 @@ CArme::CArme(std::string nom, int degat)/*: m_nom(nom), m_degat(degat)*/
     m_degat = degat;
 }
 
-CArme::~CArme(){
+CArme::~CArme()
+{
 }
 // ------------------------------------------------------------------------
 #pragma endregion définition du constructeur de base

@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD3EED3B2923B2EF00FB45FA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD3EED3A2923B2EF00FB45FA /* main.cpp */; };
-		DD3EED482923F84900FB45FA /* CPersonnage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD3EED472923F84900FB45FA /* CPersonnage.cpp */; };
-		DD3EED4B2925027600FB45FA /* CArme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD3EED492925027600FB45FA /* CArme.cpp */; };
-		DD3EED4D29256EF200FB45FA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD3EED4C29256EE500FB45FA /* main.cpp */; };
+		DD3EED5A292644EB00FB45FA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD3EED57292644EB00FB45FA /* main.cpp */; };
+		DD3EED5B292644EB00FB45FA /* CPersonnage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD3EED58292644EB00FB45FA /* CPersonnage.cpp */; };
+		DD3EED5C292644EB00FB45FA /* CArme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD3EED59292644EB00FB45FA /* CArme.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,15 +26,11 @@
 
 /* Begin PBXFileReference section */
 		DD3EED372923B2EF00FB45FA /* VisionTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VisionTest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD3EED3A2923B2EF00FB45FA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DD3EED462923F84900FB45FA /* CPersonnage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPersonnage.h; sourceTree = "<group>"; };
-		DD3EED472923F84900FB45FA /* CPersonnage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPersonnage.cpp; sourceTree = "<group>"; };
-		DD3EED492925027600FB45FA /* CArme.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CArme.cpp; sourceTree = "<group>"; };
 		DD3EED4A2925027600FB45FA /* CArme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CArme.h; sourceTree = "<group>"; };
-		DD3EED4C29256EE500FB45FA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		DD3EED4E29256F3900FB45FA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = VisionTest/main.cpp; sourceTree = "<group>"; };
-		DD3EED5029256F4400FB45FA /* CPersonnage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CPersonnage.cpp; path = VisionTest/CPersonnage.cpp; sourceTree = "<group>"; };
-		DD3EED5129256F5700FB45FA /* CArme.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CArme.cpp; sourceTree = "<group>"; };
+		DD3EED57292644EB00FB45FA /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DD3EED58292644EB00FB45FA /* CPersonnage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPersonnage.cpp; sourceTree = "<group>"; };
+		DD3EED59292644EB00FB45FA /* CArme.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CArme.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				DD3EED4A2925027600FB45FA /* CArme.h */,
-				DD3EED4E29256F3900FB45FA /* main.cpp */,
-				DD3EED5029256F4400FB45FA /* CPersonnage.cpp */,
-				DD3EED5129256F5700FB45FA /* CArme.cpp */,
 				DD3EED462923F84900FB45FA /* CPersonnage.h */,
 				DD3EED392923B2EF00FB45FA /* VisionTest */,
 				DD3EED382923B2EF00FB45FA /* Products */,
@@ -73,10 +65,9 @@
 		DD3EED392923B2EF00FB45FA /* VisionTest */ = {
 			isa = PBXGroup;
 			children = (
-				DD3EED3A2923B2EF00FB45FA /* main.cpp */,
-				DD3EED4C29256EE500FB45FA /* main.cpp */,
-				DD3EED472923F84900FB45FA /* CPersonnage.cpp */,
-				DD3EED492925027600FB45FA /* CArme.cpp */,
+				DD3EED59292644EB00FB45FA /* CArme.cpp */,
+				DD3EED58292644EB00FB45FA /* CPersonnage.cpp */,
+				DD3EED57292644EB00FB45FA /* main.cpp */,
 			);
 			path = VisionTest;
 			sourceTree = "<group>";
@@ -138,10 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD3EED4B2925027600FB45FA /* CArme.cpp in Sources */,
-				DD3EED3B2923B2EF00FB45FA /* main.cpp in Sources */,
-				DD3EED4D29256EF200FB45FA /* main.cpp in Sources */,
-				DD3EED482923F84900FB45FA /* CPersonnage.cpp in Sources */,
+				DD3EED5C292644EB00FB45FA /* CArme.cpp in Sources */,
+				DD3EED5A292644EB00FB45FA /* main.cpp in Sources */,
+				DD3EED5B292644EB00FB45FA /* CPersonnage.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
